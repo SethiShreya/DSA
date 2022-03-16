@@ -11,7 +11,7 @@ class stack{
     int top= -1;
     bool isEmpty();
     void print_stack();
-    void print_top();
+    void top();
     
 };
 int stack::push(int x){
@@ -46,7 +46,7 @@ void stack::print_stack(){
         cout<<arr[(top-i)]<<endl;
     }
 }
-void stack::print_top(){
+void stack::top(){
     cout<<"Value of top is "<<top;
     }
 
